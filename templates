@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#f4f6f9;font-family:'Segoe UI',Helvetica,Arial,sans-serif">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6f9;padding:32px 16px">
+<tr><td align="center">
+<table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06)">
+<tr><td style="background:#0a1628;padding:32px 24px;text-align:center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="56" height="56" style="display:inline-block;vertical-align:middle">
+<rect width="48" height="48" rx="10" fill="#0a1628"/><path d="M6 24c5-8 13-12 22-6l-4 4h20l-7 6 7 6H24l4 4c-9 6-17 2-22-6a16 16 0 0 1 0-8z" fill="#4fc3f7"/>
+</svg>
+<h1 style="color:#ffffff;font-size:22px;margin:12px 0 0;font-weight:700">AcuiCal</h1>
+<p style="color:#94a3b8;font-size:13px;margin:4px 0 0">Plataforma de Gestión Acuícola</p>
+</td></tr>
+<tr><td style="padding:32px 24px">
+<h2 style="font-size:18px;color:#0a1628;margin:0 0 8px">Confirma tu correo electrónico</h2>
+<p style="font-size:14px;color:#475569;line-height:1.6;margin:0 0 20px">
+Gracias por registrarte en AcuiCal. Para activar tu cuenta, haz clic en el botón de abajo:
+</p>
+<table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 24px">
+<tr><td align="center" style="background:#0a1628;border-radius:8px;padding:12px 32px">
+<a href="{{ .ConfirmationURL }}" style="color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">Confirmar correo</a>
+</td></tr>
+</table>
+<p style="font-size:13px;color:#94a3b8;line-height:1.5;margin:0">
+Si no creaste una cuenta en AcuiCal, puedes ignorar este correo.<br>
+Si el botón no funciona, copia y pega este enlace en tu navegador:<br>
+<a href="{{ .ConfirmationURL }}" style="color:#4fc3f7;word-break:break-all">{{ .ConfirmationURL }}</a>
+</p>
+</td></tr>
+<tr><td style="background:#f8fafc;padding:16px 24px;text-align:center;border-top:1px solid #e2e8f0">
+<p style="font-size:11px;color:#94a3b8;margin:0">
+Acuícolas Viento en Popa &middot; <a href="https://acuical.com" style="color:#4fc3f7;text-decoration:none">acuical.com</a>
+</p>
+</td></tr>
+</table>
+</td></tr></table>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#f4f6f9;font-family:'Segoe UI',Helvetica,Arial,sans-serif">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6f9;padding:32px 16px">
+<tr><td align="center">
+<table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06)">
+<tr><td style="background:#0a1628;padding:32px 24px;text-align:center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="56" height="56" style="display:inline-block;vertical-align:middle">
+<rect width="48" height="48" rx="10" fill="#0a1628"/><path d="M6 24c5-8 13-12 22-6l-4 4h20l-7 6 7 6H24l4 4c-9 6-17 2-22-6a16 16 0 0 1 0-8z" fill="#4fc3f7"/>
+</svg>
+<h1 style="color:#ffffff;font-size:22px;margin:12px 0 0;font-weight:700">AcuiCal</h1>
+<p style="color:#94a3b8;font-size:13px;margin:4px 0 0">Plataforma de Gestión Acuícola</p>
+</td></tr>
+<tr><td style="padding:32px 24px">
+<h2 style="font-size:18px;color:#0a1628;margin:0 0 8px">Restablece tu contraseña</h2>
+<p style="font-size:14px;color:#475569;line-height:1.6;margin:0 0 20px">
+Recibimos una solicitud para restablecer la contraseña de tu cuenta en AcuiCal. Haz clic en el botón para crear una nueva:
+</p>
+<table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 24px">
+<tr><td align="center" style="background:#0a1628;border-radius:8px;padding:12px 32px">
+<a href="{{ .ConfirmationURL }}" style="color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">Restablecer contraseña</a>
+</td></tr>
+</table>
+<p style="font-size:13px;color:#94a3b8;line-height:1.5;margin:0">
+Si no solicitaste este cambio, puedes ignorar este correo.<br>
+Si el botón no funciona, copia y pega este enlace en tu navegador:<br>
+<a href="{{ .ConfirmationURL }}" style="color:#4fc3f7;word-break:break-all">{{ .ConfirmationURL }}</a>
+</p>
+</td></tr>
+<tr><td style="background:#f8fafc;padding:16px 24px;text-align:center;border-top:1px solid #e2e8f0">
+<p style="font-size:11px;color:#94a3b8;margin:0">
+Acuícolas Viento en Popa &middot; <a href="https://acuical.com" style="color:#4fc3f7;text-decoration:none">acuical.com</a>
+</p>
+</td></tr>
+</table>
+</td></tr></table>
+</body>
+</html>
+
