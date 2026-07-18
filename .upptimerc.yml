@@ -21,7 +21,7 @@ assignees:
   - acuicolasvientoenpopa-coder
 
 status-website:
-  baseUrl: /status
+  baseUrl: /
   logoUrl: https://app.acuical.com/favicon.svg
   name: "AcuiCal Status"
   introTitle: "**Estado de los servicios AcuiCal**"
